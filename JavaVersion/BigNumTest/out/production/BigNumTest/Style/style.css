@@ -1,0 +1,41 @@
+
+/* Set the background color to a dark, cosmic-like color */
+.root {
+    -fx-background-color: #121212;
+}
+
+/* Customize button styles */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #323232, #525252);
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #525252;
+}
+
+/* Customize text area style */
+.text-area {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #ffffff;
+    -fx-control-inner-background: #1e1e1e;
+    -fx-border-color: #525252;
+}
+
+/* Customize button on hover */
+.button:hover {
+    -fx-background-color: #424242;
+}
+
+/* Customize button on pressed */
+.button:pressed {
+    -fx-background-color: #1e1e1e;
+}
+
+/* Customize button fonts and text size */
+.button {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Customize label text color */
+.label {
+    -fx-text-fill: #ffffff;
+}
