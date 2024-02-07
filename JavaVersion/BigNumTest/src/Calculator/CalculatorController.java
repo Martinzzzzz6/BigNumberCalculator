@@ -145,13 +145,21 @@ public class CalculatorController {
         BigNumber result = calculator.evaluateExpression(expression);
 
         if (result != null) {
-            txtResults.setText(result.getNumber());
+            // Clear the text area
+            txtResults.clear();
+
+            // Append the expression and result with appropriate formatting
+            StringBuilder newText = new StringBuilder();
+            newText.append(expression).append(" = ").append(result.getNumber());
+
+            // Set the updated text to the text area
+            txtResults.setText(newText.toString());
+
+            // Update the input buffer
             inputBuffer.setLength(0);
             inputBuffer.append(result.getNumber());
         }
     }
-
-
 
     @FXML
     void btnFiveOnClick(ActionEvent event) {
@@ -323,7 +331,15 @@ public class CalculatorController {
         assert btnZero != null : "fx:id=\"btnZero\" was not injected: check your FXML file 'CalculatorApp.fxml'.";
         assert txtResults != null : "fx:id=\"txtResults\" was not injected: check your FXML file 'CalculatorApp.fxml'.";
         applyButtonColorAnimation(btnZero);
+        txtResults.setWrapText(true);
+
+        // Apply animation to buttons
+        applyButtonColorAnimation(btnZero);
+
+        // Set action for backspace button
         btnBackspace.setOnAction(event -> btnBackspaceOnClick(event));
+
+        // Request focus for the text area
         txtResults.requestFocus();
     }
 
