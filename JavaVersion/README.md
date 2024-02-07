@@ -1,11 +1,10 @@
 # Big Number Calculator with GUI using JavaFX
 
-The idea of this project is to make a calculator, working with only positive integers only, that has no bounds,
-regarding the size of the numbers' it is calculating.
+The idea of this project is to create a calculator that works exclusively with positive integers, without any limits on the size of the numbers it can handle.
 
-I have implemented subtraction,multiplication,divison,addition,modulo operation.
+Implemented functionalities include subtraction, multiplication, division, addition, and modulo operations.
 
-Also i have made a GUI using JavaFX,JavaFXML and SceneBuilder as you can see in the examples below.
+The Java program incorporates additional features to mimic a real calculator app. It includes standard memory keys commonly found in calculators. Additionally, the Java code features a graphical user interface (GUI) built using JavaFX, JavaFXML, and SceneBuilder.
 
 ![](/JavaVersion/GUIimages/second.png)
 
