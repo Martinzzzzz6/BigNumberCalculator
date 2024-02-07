@@ -7,6 +7,6 @@ I have implemented subtraction,multiplication,divison,addition,modulo operation.
 
 Also i have made a GUI using JavaFX,JavaFXML and SceneBuilder as you can see in the examples below.
 
-![](/GUIimages/second.png)
+![](/JavaVersion/GUIimages/second.png)
 
-![](/GUIimages/first.png)
+![](//JavaVersion/GUIimages/first.png)
