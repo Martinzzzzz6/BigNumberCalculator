@@ -9,4 +9,4 @@ Also i have made a GUI using JavaFX,JavaFXML and SceneBuilder as you can see in 
 
 ![](/JavaVersion/GUIimages/second.png)
 
-![](//JavaVersion/GUIimages/first.png)
+![](/JavaVersion/GUIimages/first.png)
